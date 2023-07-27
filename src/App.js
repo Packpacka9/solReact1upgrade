@@ -17,7 +17,6 @@ import {
 import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from "./icons8-discord-50.png";
 import imgTwitter from "./icons8-twitter-50.png";
-import imgSol from "./solana.png";
 
 const solAmount = "0.25/0.28/0.33";
 const image =
@@ -417,7 +416,6 @@ function App() {
     Title,
     imgTwitter,
     imgDiscord,
-    imgSol,
     image,
     solAmount,
     main,

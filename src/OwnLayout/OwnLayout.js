@@ -5,7 +5,6 @@ const OwnLayout = (
   Title,
   imgTwitter,
   imgDiscord,
-  imgSol,
   image,
   solAmount,
   main,
@@ -63,9 +62,7 @@ const OwnLayout = (
           <img className="image" src={image} alt={"projectImage"} />
         </div>
         <div>
-          <div className="amount">
-            Amount - {solAmount} <img className="sol" src={imgSol} alt="" />
-          </div>
+          <div className="amount">Amount - {solAmount}</div>
           <button className="button g" onClick={main}>
             Connect Wallet
           </button>
